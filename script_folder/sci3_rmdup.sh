@@ -4,8 +4,8 @@ sample=$2
 output_folder=$3
 mismatch=$4
 
-python="/net/shendure/vol1/home/cao1025/anaconda2/bin/python2.7"
-python_script="/net/shendure/vol1/home/cao1025/analysis_script/sci3/rm_dup_barcode_UMI.py"
+python="/home/sgong1/anaconda2/bin/python2"
+python_script="/lustre/project/wdeng7/shangyu/project/analysis_script/script_folder/rm_dup_barcode_UMI.py"
 
 echo Filtering sample: $sample
 
